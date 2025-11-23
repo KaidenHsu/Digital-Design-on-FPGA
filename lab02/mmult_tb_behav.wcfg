@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="mmult_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="mmult_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="96.323 ns"></ZoomStartTime>
+      <ZoomEndTime time="328.736 ns"></ZoomEndTime>
+      <Cursor1Time time="178.671 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="147"></NameColumnWidth>
+      <ValueColumnWidth column_width="142"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/mmult_tb/uut/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mmult_tb/uut/reset_n" type="logic">
+      <obj_property name="ElementShortName">reset_n</obj_property>
+      <obj_property name="ObjectShortName">reset_n</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mmult_tb/uut/A_mat" type="array">
+      <obj_property name="ElementShortName">A_mat[0:71]</obj_property>
+      <obj_property name="ObjectShortName">A_mat[0:71]</obj_property>
+      <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mmult_tb/uut/B_mat" type="array">
+      <obj_property name="ElementShortName">B_mat[0:71]</obj_property>
+      <obj_property name="ObjectShortName">B_mat[0:71]</obj_property>
+      <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mmult_tb/uut/enable" type="logic">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mmult_tb/uut/A" type="array">
+      <obj_property name="ElementShortName">A[0:71]</obj_property>
+      <obj_property name="ObjectShortName">A[0:71]</obj_property>
+      <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mmult_tb/uut/B" type="array">
+      <obj_property name="ElementShortName">B[0:71]</obj_property>
+      <obj_property name="ObjectShortName">B[0:71]</obj_property>
+      <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mmult_tb/uut/C_mat" type="array">
+      <obj_property name="ElementShortName">C_mat[0:152]</obj_property>
+      <obj_property name="ObjectShortName">C_mat[0:152]</obj_property>
+      <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mmult_tb/uut/valid" type="logic">
+      <obj_property name="ElementShortName">valid</obj_property>
+      <obj_property name="ObjectShortName">valid</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mmult_tb/uut/state" type="array">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+</wave_config>
