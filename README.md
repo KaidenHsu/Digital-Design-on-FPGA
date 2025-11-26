@@ -1,4 +1,4 @@
-# Digital-Design-on-FPGA
+# DLab
 
 Circuit implementation on the Zedboard FPGA
 
@@ -6,17 +6,17 @@ Circuit implementation on the Zedboard FPGA
 
 ## Labs
 
- Lab   | Descriptions
+ Labs   | Descriptions
 --------|:-----
 [Lab1][1]|Sequential binary multiplier
 [Lab2][2]|3x3 matrix multiplier
 [Lab3][3]|Simple I/O control circuit
-[Lab4]|UART I/O circuit
-[Lab5]|Sieve algorithm & Standard 1602 character LCD display
-[Lab7]|4 x 4 pipelined matrix multiplier
-[Lab8]|MD5 password cracking circuit
-[Lab9]|Correlation filter circuit
-[Lab10]|VGA video interface circuit
+Lab4|UART I/O circuit
+Lab5|Sieve algorithm & Standard 1602 character LCD display
+Lab7|4 x 4 pipelined matrix multiplier
+Lab8|MD5 password cracking circuit
+Lab9|Correlation filter circuit
+Lab10|VGA video interface circuit
 
 [1]: lab01/
 [2]: lab02/
